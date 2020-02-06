@@ -8,17 +8,4 @@ window.onload = function () {
     document.getElementById("light-middle").innerHTML = maybe;
     document.getElementById("light-bottom").innerHTML = go;
 
-    if (go = "groen") {
-        document.getElementById("light-top").style.backgroundColor = "green";
-
-
-    }
-
-    if (maybe = "oranje") {
-        document.getElementById("light-middle").style.backgroundColor = "orange";
-    }
-
-    if (stop = "red") {
-        document.getElementById("light-bottom").style.backgroundColor = "red";
-    }
 }
