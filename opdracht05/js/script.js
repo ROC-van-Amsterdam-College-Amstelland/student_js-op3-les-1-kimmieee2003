@@ -37,11 +37,11 @@ function toggleOranjeLicht() {
 
     function toggleGroenLicht() {
         if (groenLichtStaatAan == false) {
-            document.getElementById("left-light-bottom").style.backgroundColor = "green";
+            document.getElementById("light-bottom").style.backgroundColor = "green";
             groenLichtStaatAan = true;
         }
         else {
-            document.getElementById("left-light-bottom").style.backgroundColor = "gray";
+            document.getElementById("light-bottom").style.backgroundColor = "gray";
             groenLichtStaatAan = false;
         }
     }
