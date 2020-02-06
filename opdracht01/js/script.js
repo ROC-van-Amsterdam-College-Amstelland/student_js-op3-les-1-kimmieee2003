@@ -5,9 +5,9 @@ var go = "groen";
 window.onload = function () {
     //JOUW CODE HIER
 
-    if (var go = "groen") {
-        document.getElementById("light-top");
-    x.style.color = "green"
-}
+    if (go = "groen") {
+        document.getElementById("light-top").innerHTML = go;
+        go.style.color = "green";
+    }
 }
 
