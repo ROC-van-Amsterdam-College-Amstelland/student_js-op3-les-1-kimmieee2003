@@ -6,7 +6,7 @@ var roodLichtStaatAan = false;
 var oranjeLichtStaatAan = false;
 var groenLichtStaatAan = false;
 
-window.onload = function(){
+window.onload = function () {
     document.getElementById("left-light-top").innerHTML = stop;
     document.getElementById("left-light-middle").innerHTML = maybe;
     document.getElementById("left-light-bottom").innerHTML = go;
@@ -15,37 +15,40 @@ window.onload = function(){
     document.getElementById("right-light-middle").innerHTML = maybe;
     document.getElementById("right-light-bottom").innerHTML = go;
 
+    document.getElementById("left-stoplight-label").innerHTML = "A";
+    document.getElementById("right-stoplight-label").innerHTML = "B";
+
     //JOUW CODE HIER
 }
 
-function toggleRoodLicht(){
-    if(roodLichtStaatAan == false){
+function toggleRoodLicht() {
+    if (roodLichtStaatAan == false) {
         document.getElementById("left-light-top").style.backgroundColor = "red";
         roodLichtStaatAan = true;
     }
-    else{
+    else {
         document.getElementById("left-light-top").style.backgroundColor = "gray";
         roodLichtStaatAan = false;
     }
 }
 
-function toggleOranjeLicht(){
-    if(oranjeLichtStaatAan == false){
+function toggleOranjeLicht() {
+    if (oranjeLichtStaatAan == false) {
         document.getElementById("left-light-middle").style.backgroundColor = "orange";
         oranjeLichtStaatAan = true;
     }
-    else{
+    else {
         document.getElementById("left-light-middle").style.backgroundColor = "gray";
         oranjeLichtStaatAan = false;
     }
 }
 
-function toggleGroenLicht(){
-    if(groenLichtStaatAan == false){
+function toggleGroenLicht() {
+    if (groenLichtStaatAan == false) {
         document.getElementById("left-light-bottom").style.backgroundColor = "green";
         groenLichtStaatAan = true;
     }
-    else{
+    else {
         document.getElementById("left-light-bottom").style.backgroundColor = "gray";
         groenLichtStaatAan = false;
     }
